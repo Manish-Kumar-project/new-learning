@@ -88,11 +88,8 @@ public class TestBranch {
         new TestBranch().sub(10, 10);
         new TestBranch().testStashFromRepo2(10, 10);
         new TestBranch().testStashFromLocal2(10, 10);
-<<<<<<< Updated upstream
         new TestBranch().testStashFromRepo3(10, 10);
-=======
         new TestBranch().testStashFromLocal3(10, 10);
->>>>>>> Stashed changes
 
     }
 }
