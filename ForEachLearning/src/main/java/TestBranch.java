@@ -74,6 +74,12 @@ public class TestBranch {
          int b1 = b;
          System.out.println("addition of two numbers : " + (a1 / b1));
      }
+    public void testStashFromLocal3(int a, int b) {
+        int a1 = a;
+        int b1 = b;
+        System.out.println("addition of two numbers : " + (a1 % b1));
+
+    }
     public static void main(String[] args) {
         System.out.println("Hello Test");
         new TestBranch().add(10, 10);
@@ -82,7 +88,11 @@ public class TestBranch {
         new TestBranch().sub(10, 10);
         new TestBranch().testStashFromRepo2(10, 10);
         new TestBranch().testStashFromLocal2(10, 10);
+<<<<<<< Updated upstream
         new TestBranch().testStashFromRepo3(10, 10);
+=======
+        new TestBranch().testStashFromLocal3(10, 10);
+>>>>>>> Stashed changes
 
     }
 }
