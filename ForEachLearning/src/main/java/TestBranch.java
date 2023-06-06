@@ -13,7 +13,12 @@ public class TestBranch {
         System.out.println("addition of two numbers : " + a1 * b1);
 
     }
+    public void testStashFromLocal5(int a, int b) {
+        int a1 = a;
+        int b1 = b;
+        System.out.println("addition of two numbers : " + (a1 % b1));
 
+    }
     public void sub(int a, int b) {
         int a1 = a;
         int b1 = b;
