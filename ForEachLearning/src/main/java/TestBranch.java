@@ -106,11 +106,6 @@ public class TestBranch {
          int b1 = b;
          System.out.println("addition of two numbers : " + (a1 / b1));
      }
-    public void testStashFromLocal7(int a, int b) {
-        int a1 = a;
-        int b1 = b;
-        System.out.println("addition of two numbers : " + (a1 / b1));
-    }
     public void testStashFromRepo5(int a, int b) {
          int a1 = a;
          int b1 = b;
