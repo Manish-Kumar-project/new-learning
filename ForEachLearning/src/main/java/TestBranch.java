@@ -138,11 +138,13 @@ public class TestBranch {
          int b1 = b;
          System.out.println("addition of two numbers : " + (a1 / b1));
      }
-    public void testStashFromRepo11(int a, int b) {
-         int a1 = a;
-         int b1 = b;
-         System.out.println("addition of two numbers : " + (a1 / b1));
-     }
+         public void testStashFromLocal11(int a, int b) {
+        int a1 = a;
+        int b1 = b;
+        System.out.println("addition of two numbers : " + (a1 % b1));
+
+    }
+
     public static void main(String[] args) {
         System.out.println("Hello Test");
         new TestBranch().add(10, 10);
@@ -153,7 +155,7 @@ public class TestBranch {
         new TestBranch().testStashFromLocal2(10, 10);
         new TestBranch().testStashFromRepo3(10, 10);
         new TestBranch().testStashFromLocal3(10, 10);
-        new TestBranch().testStashFromRepo11(10, 10);
+         new TestBranch().testStashFromLocal11(10, 10);
 
     }
      public void test(int a, int b) {
